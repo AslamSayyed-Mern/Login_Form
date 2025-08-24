@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>HTML Project</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: rgb(109, 168, 168);
+            color: white;
+            background: url(https://images8.alphacoders.com/133/thumb-1920-1337846.png);
+            background-position: center;
+            background-size: cover;
+        }
+        #abc
+        {
+            text-align: center;
+            margin: auto;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            width: 400px;
+            height: 350px;
+            background-color: transparent;
+            margin-top: 150px;
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 10px rgba(0,0,0,0.2) ;
+        
+        }
+        .india{
+                width: 300px;
+                height: 35px;
+                border-radius: 25px;
+                border: 1px solid white;
+                background-color: transparent;
+                color: white;
+                text-indent: 10px;
+                margin-bottom: 20px;
+               
+        }
+        .india::placeholder{
+            color: white;
+        }
+        #xyz{
+                    display: inline-block;
+                }
+      
+        h1{
+            margin: 0;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+            
+        }
+        p{
+            margin: 0;
+            display: inline;
+        }
+        #login{
+            width: 300px;
+            height: 35px;
+            border-radius: 25px;
+            border: none;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 13px;
+            color: #333;
+            font-weight: bold;
+        }
+      .links{
+        text-decoration: none;
+        color: white;
+        font-weight: 900;
+      }
+    </style>
+</head>
+<body>
+    
+    <div id="abc">
+        <h1>
+        Login
+        </h1>
+        <form>
+            <input class="india" type="text" placeholder="Username"> <br>
+            <input  class="india" type="password" placeholder="Password"><br>
+            <div id="xyz">
+            <input type="checkbox" value="verify">
+            <p>Remember me</p>
+            </div>
+            <a class="links" style="margin-left: 60px;" href="/"> Forrgot Password?</a><br>
+            <input id="login" type="submit" value="Login"><br>
+            <p>Don't have an account?</p>
+            <a class="links" href="/">Register</a>
+        </form>
+
+    </div>
+</body>
+</html>
